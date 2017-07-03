@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>NHSbuntu</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/solarized.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<section>
+					prsb logo
+					rcgp logo
+				</section>
+
+				<section>
+					<img src="img/Selection_179.png" alt="pub-sub-model" height=600px>
+				</section>
+				
+				<section>
+					<img src="img/S1growthchart.png" alt="systmone-growthchart" height=600px>
+				</section>
+
+				<section>
+					medication screenshot
+				</section>
+
+				<section>
+					<img src="img/S1scan.png" alt="systmone-scanned-paper" height=600px>
+				</section>
+
+				<section>
+					research
+					anonymised/aggregated data
+				</section>
+
+				<section>
+					public health
+				</section>
+
+				<section>
+					research
+				</section>
+
+<!-- 
+				<section>
+					<img src="img/marcus.jpg" width="200" alt="marcus.jpg">
+					<h3><a href="https://twitter.com/marcus_baw">@marcus_baw</a></h3>
+					<ul>
+						<h4>GP &amp; former Anaesthetist</h4>
+						<h4>Clinical informatician / ‘General Hacktitioner’</h4>
+						<h4><small>NHS.UK Alpha, RCGP HIG, Endeavour Health, Apperta Foundation, Eyedraw/OpenEyes, Professional Records Standards Body, NHS Healthy Child Programme, NHS WiFi Programme, NHS Hack Day, CCIO Network, UKHealthCamp, Clinical Software Usability Survey 2015-2016...</small></h4>
+						<h4><a href="http://pacharanero.github.io/opensourceistheonlyway/#/">‘Open Source is the Only Way For Medicine’</a></h4>
+					</ul>
+				</section> -->
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
